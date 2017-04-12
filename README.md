@@ -22,4 +22,5 @@ Connect me on Lozish Labs: [Lozish.com](http://lozish.com)
 
 # Episode Links
 
-0) [Episode 0](https://www.youtube.com/watch?v=OccxaCPw2sY)
+0) [Episode 00](https://www.youtube.com/watch?v=OccxaCPw2sY)
+1) [Episode 01](https://www.youtube.com/watch?v=G_M-oALIUc4)
