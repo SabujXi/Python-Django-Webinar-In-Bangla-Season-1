@@ -18,3 +18,8 @@ Connect me on Twitter: [Sabuj Sarker on Twitter](https://twitter.com/SabujXi)
 Connect me on my Blog: [sabuj.me](https://sabuj.me)
 
 Connect me on Lozish Labs: [Lozish.com](http://lozish.com)
+
+
+# Episode Links
+
+0) [Episode 0](https://www.youtube.com/watch?v=OccxaCPw2sY)
