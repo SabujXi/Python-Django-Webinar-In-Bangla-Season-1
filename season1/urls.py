@@ -16,6 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from sunflower.views import hi, index
+
+
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    #url(r'^admin/', admin.site.urls),
+    url(r'^$', index),
+    url(r'^hi/', hi),
 ]
