@@ -1,0 +1,18 @@
+{% extends "./base.html" %}
+
+{% block title %} Give me ak botol flower {% endblock title %}
+
+{% block content %}
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Color</th>
+        </tr>
+        {% for f in flowers %}
+            <tr>
+                <td> {{ f.name }} </td>
+                <td> {{ f.color }} </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock content %}

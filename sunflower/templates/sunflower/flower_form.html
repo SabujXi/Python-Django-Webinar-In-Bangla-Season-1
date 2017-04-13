@@ -1,0 +1,12 @@
+{% extends "./base.html" %}
+
+{% block title %} Give me some flower {% endblock title %}
+
+{% block content %}
+    <form action="/f_crud" method="POST">
+        {% csrf_token %}
+        Flower Name: <input type="text" name="name" value="{{ name }}"> <br/>
+        Flower Color: <input type="text" name="color" VALUE="{{ color }}"> <br/>
+        <input type="submit" value="Save Me...">
+    </form>
+{% endblock content %}
