@@ -16,12 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from sunflower.views import hi, index, flower_crud, list_flowers
+from sunflower.views import hi, index, flower_crud, garden_crud, list_flowers
 
 urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     url(r'^$', index),
     url(r'^hi/', hi),
     url(r'^f_crud', flower_crud),
+    url(r'^g_crud', garden_crud),
     url(r'^lf', list_flowers)
 ]

@@ -1,0 +1,12 @@
+{% extends "./base.html" %}
+
+{% block title %} Garden Entry {% endblock title %}
+
+{% block content %}
+    <form action="/g_crud" method="POST">
+        {% csrf_token %}
+        Garden Name: <input type="text" name="name" value="{{ name }}"> <br/>
+        Description: <textarea name="description">{{ description }}</textarea> <br/>
+        <input type="submit" value="Save Me...">
+    </form>
+{% endblock content %}

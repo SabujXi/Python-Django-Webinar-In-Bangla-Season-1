@@ -7,6 +7,13 @@
         {% csrf_token %}
         Flower Name: <input type="text" name="name" value="{{ name }}"> <br/>
         Flower Color: <input type="text" name="color" VALUE="{{ color }}"> <br/>
+        Description: <textarea name="description">{{ description }}</textarea> <br/>
+        Which Garden? : <select name="gid">
+                            {% for garden in gardens %}
+                                <option value="{{garden.id}}"> {{garden.name}} </option>
+                            {% endfor %}
+                        </select>
+        <br/>
         <input type="submit" value="Save Me...">
     </form>
 {% endblock content %}
